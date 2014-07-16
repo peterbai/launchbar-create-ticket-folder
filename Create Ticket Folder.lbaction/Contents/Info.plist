@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.peterbai.launchbar.FolderCreate</string>
+	<key>CFBundleName</key>
+	<string>Create and open a ticket folder</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBTextInputTitle</key>
+	<string>Ticket number</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+			<key>LBRunInBackground</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBReturnsResult</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>Creates a ticket folder from user input. Opens the folder if it already exists.</string>
+		<key>LBAuthor</key>
+		<string>Peter Bai</string>
+		<key>LBEmail</key>
+		<string>peterbai@box.com</string>
+		<key>LBWebsite</key>
+		<string>https://github.com/peterbai</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBArgument</key>
+		<string>Number of ticket</string>
+	</dict>
+</dict>
+</plist>
